@@ -20,7 +20,7 @@ app.use(express.urlencoded({
 app.use(express.json());//client side se data mera json format m ana chaiye
 app.use(cookieParser());
 const corsOptions = {
-    origin:"twitterclone-zeta.vercel.app",
+    origin:"https://twitterclone-zeta.vercel.app",
     credentials:true
 }
 app.use(cors(corsOptions));
